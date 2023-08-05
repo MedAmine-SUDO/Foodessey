@@ -20,20 +20,15 @@ Foodyssey is a Skype bot that streamlines group lunch orders, allowing users to 
 
 ## Setup
 
-1. Clone this repository:
-
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-
+1. Clone this repository
 2. Install dependencies:
 
    pip install -r requirements.txt
 
-3. Create a `.env` file in the project root folder with your bot credentials:
+3. Create a `.env` file in the project root folder with your skype credentials:
 
-   APP_ID=`<your-app-id>`
-   APP_PASSWORD=`<your-app-password>`
-
-4. Update the messaging endpoint in your bot registration portal to point to your local or deployed bot.
+   skype_username=`<your-skype-username>`
+   skype_password=`<your-skype-password>`
 
 ## Usage
 
@@ -45,7 +40,7 @@ Foodyssey is a Skype bot that streamlines group lunch orders, allowing users to 
 
    /order <order_details>
 
-3. Wait for the deadline to pass, and the initiator will receive asummary of all orders.
+3. Wait for the deadline to pass, and the initiator will receive a summary of all orders.
 
 ## Deployment
 
