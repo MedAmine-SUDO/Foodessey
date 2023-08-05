@@ -1,0 +1,31 @@
+{
+  "1/4 sder": 9.0,
+  "1/4 cuisse": 9.0,
+  "1/2 poulet": 15.0,
+  "plat": {
+    "plat kebab": 15.0,
+    "plat chichtaouk": 14.5,
+    "plat chawarma": 14.5,
+    "plat mama chami": 15.0
+  },
+
+  "tacos": {
+    "plat esc panné": 14.5,
+    "tacos chawarma": 7.5,
+    "tacos esc panné": 7.5,
+    "tacos cordon bleu": 7.9,
+    "tacos esc grillé": 7.5,
+    "tacos chichtaouk": 7.5,
+    "tacos mama chami": 8.3
+  },
+  "libanais": {
+    "libanais chichtaouk": 6.2,
+    "libanais kebab": 6.4,
+    "libanais chawarma": 6.2,
+    "libanais esc panné": 6.2,
+    "libanais cordon bleu": 7.2,
+    "libanais esc grillé": 6.2,
+    "libanais mama chami": 7.2
+  },
+  "supp": { "oeuf": 0.5, "fromage": 0.8, "frite": 2.5 }
+}
