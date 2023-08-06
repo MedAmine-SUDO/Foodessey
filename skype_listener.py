@@ -29,7 +29,6 @@ class SkypeListener(SkypeEventLoop):
                 "chat_id": event.msg.chatId,
                 "msg": event.msg.content,
             }
-            print(message)
             if event.msg.chatId == "19:a6bd893165004176b7ca1103ac3460b8@thread.skype":
                 if event.msg.content.startswith(
                     "@resto"

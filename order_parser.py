@@ -16,9 +16,9 @@ class OrderParser:
     def __init__(self, logfile) -> None:
         self.logfile = logfile
         self.order_by_user = {}
-        self.orderprice_by_user = {}
         self.resto = None
         self.menu = None
+        self.group_id = None
 
     def set_orders(self):
         with open(self.logfile, "r") as f:
@@ -36,6 +36,7 @@ class OrderParser:
                         data_object["user_id"],
                         data_object["msg"],
                     )
+                    self.group_id = data_object["chat_id"]
 
                     user = skype.contacts[user_id]
 
